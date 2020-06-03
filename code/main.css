@@ -37,39 +37,36 @@ img {
     height: 40px;
     padding-right: 30px;
 }
-/* Set height of body and the document to 100% to enable "full page tabs" */
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial;
+
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
   }
   
-  /* Style tab links */
-  .tablink {
-    background-color: #555;
-    color: white;
+  /* Style the links inside the navigation bar */
+  .topnav a {
     float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
+    display: block;
+    color: #cc00ff;
+    text-align: center;
     padding: 14px 16px;
+    text-decoration: none;
     font-size: 17px;
-    width: 25%;
   }
   
-  .tablink:hover {
-    background-color: #777;
-  }
-  
-  /* Style the tab content (and add height:100% for full page content) */
-  .tabcontent {
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #f0b3ff;
     color: white;
-    display: none;
-    padding: 100px 20px;
-    height: 100%;
   }
   
-  #Home {background-color: red;}
-  #News {background-color: green;}
-  #Contact {background-color: blue;}
-  #About {background-color: orange;}
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #cc00ff;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
