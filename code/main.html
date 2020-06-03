@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Main</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+   <header>
+        <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+        <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+        <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+        <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+        
+        <div id="Home" class="tabcontent">
+          <h3>Home</h3>
+          <p>Home is where the heart is..</p>
+        </div>
+        
+        <div id="News" class="tabcontent">
+          <h3>News</h3>
+          <p>Some news this fine day!</p>
+        </div>
+        
+        <div id="Contact" class="tabcontent">
+          <h3>Contact</h3>
+          <p>Get in touch, or swing by for a cup of coffee.</p>
+        </div>
+        
+        <div id="About" class="tabcontent">
+          <h3>About</h3>
+          <p>Who we are and what we do.</p>
+        </div>
+    </header>
+    <body>
+
+        <p id="demo">Hi.</p> <!--???-->
+        
+        <script>
+        function openPage(pageName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+
+  // Show the specific tab content
+  document.getElementById(pageName).style.display = "block";
+
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();function openPage(pageName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+
+  // Show the specific tab content
+  document.getElementById(pageName).style.display = "block";
+
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+        </script>
+        
+        </body>
+    <body>
+            <div class="date">May 21, 2020</div>
+            <h1>Natalie Ramirez</h1>
+                <p>
+                    Hello! My name is Natalie Ramirez and this is a website that
+                    is all about me. Find anything you want to know about me here.
+                </p>
+                
+                <p>
+                    With this website, you can know what Sports and athletics I am doing
+                    during quarantine and during the school year, my freshman and sophomore 
+                    school stats, and other fun things like how I am keeping busy during 
+                    this time doing projects such as this one. 
+                </p>
+        
+                <p>
+                    Summer is about to begin! So you know what that means... a lot of sitting
+                    around and doing nothing. Yeah, quarantine sucks, but this website will not
+                    only be talking about me but other ways you can keep busy! Have fun and HAGS :)
+                </p>
+        </div>
+        <hr width="90%">
+        
+        <div>
+            <footer>
+                <h4>Contact me! </h4>
+                <br>
+                <a href="https://www.instagram.com/natalieee.ramirez/"><img src="ig logo copy.webp" alt="Instagram Image"/></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><img src="gmail logo.png" alt="Gmail Image"/></a>
+            </footer>
+        </div>

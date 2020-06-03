@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+
+body {
+    width: 80%;
+    /*border: 20px solid #bdc3c7;*/
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
+    padding-left: 40px;
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.date {
+    color: #3498db;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+h4 {
+    font-family: sans-serif;
+    color: #3498db;
+    letter-spacing: 0.08em;
+}
+
+img {
+    height: 40px;
+    padding-right: 30px;
+}
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  #Home {background-color: red;}
+  #News {background-color: green;}
+  #Contact {background-color: blue;}
+  #About {background-color: orange;}
