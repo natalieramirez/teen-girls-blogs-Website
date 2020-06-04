@@ -7,17 +7,6 @@ body {
     margin: 15px 40px 30px 40px;
 }
 
-/*.container {
-    max-width: 800px;
-    margin: auto;
-}*/
-
-.date {
-    color: #3498db;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-}
-
 h1 {
     font-size: 2.0rem;
     font-weight: bold;
@@ -43,6 +32,7 @@ footer {
 
     img {
         max-width: 100%;
+        width: auto;
         height: auto;
     }
 
