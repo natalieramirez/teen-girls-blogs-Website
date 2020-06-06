@@ -1,24 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
 
+
 body {
-    width: 80%;
-    /*border: 20px solid #bdc3c7;*/
+    width: 95%;
     font-family: 'Source Sans Pro', sans-serif;
-    padding: 20px;
-    padding-left: 40px;
-    margin: 20px auto;
-    max-width: 700px;
-}
-
-.container {
-    max-width: 800px;
-    margin: 50px auto;
-}
-
-.date {
-    color: #3498db;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
+    margin: 15px 40px 30px 40px;
 }
 
 h1 {
@@ -27,16 +13,28 @@ h1 {
     color: #cc00ff;
 }
 
-h4 {
+footer {
     font-family: sans-serif;
-    color: #3498db;
+    color: #f0b3ff;
     letter-spacing: 0.08em;
 }
 
-img {
-    height: 40px;
-    padding-right: 30px;
+.alignTextCenter {
+        width: 100%;
+        text-align: center;
+        padding: 35px;
+    }
+
+.alignImageCenter {
+    padding-left: 25%;
+    width: 50%;
 }
+
+    img {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
 
 .topnav {
     background-color: #ffffff;
@@ -45,7 +43,7 @@ img {
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    float: left;
+    float: right;
     display: block;
     color: #cc00ff;
     text-align: center;
