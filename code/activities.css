@@ -2,9 +2,9 @@
 
 
 body {
-    width: 95%;
+    width: 100%;
     font-family: 'Source Sans Pro', sans-serif;
-    margin: 15px 40px 30px 40px;
+    margin: 0px;
 }
 
 h1 {
@@ -20,13 +20,13 @@ footer {
 }
 
 .alignTextCenter {
-        width: 100%;
         text-align: center;
-        padding: 35px;
     }
 
 .alignImageCenter {
-    padding-left: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
 }
 
@@ -39,6 +39,10 @@ footer {
 .topnav {
     background-color: #ffffff;
     overflow: hidden;
+    padding: 40px 40px 40px 40px;
+    border-bottom: #cc00ff;
+    border-width: 10px;
+    border-bottom-style: solid;
   }
   
   /* Style the links inside the navigation bar */
