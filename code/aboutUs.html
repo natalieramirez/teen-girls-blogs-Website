@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Us</title>
+        <link rel="stylesheet" type="text/css" href="aboutUs.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+
+
+<body>
+  <div class="topnav" id="myTopnav">
+      <a href="aboutUs.html" class="active">About Us</a>
+      <a href="activities.html">Activities</a>
+      <a href="home.html">Home</a>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+      </a>
+      <img src="teenblogshorizontal.png">
+  </div>
+
+  <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+  function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+      x.className += " responsive";
+  } else {
+      x.className = "topnav";
+  }
+  }
+  </script>
+
+  <header class="alignTextCenter">
+      <h1>About Us</h1> 
+  </header>
+              
+  
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="img1.jpg" alt="Erika" style="width:100%">
+        <div class="container">
+          <h2>Erika Ramirez</h2>
+          <p class="title">Co-Founder</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>erika.ramirez.mail@gmail.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+    
+      <div class="column">
+        <div class="card">
+          <img src="img2.jpg" alt="Natalie" style="width:100%">
+          <div class="container">
+            <h2>Natalie Ramirerz</h2>
+            <p class="title">Co-Founder</p>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>natalie.ramirez.mailbox@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+    </div>
+  </div>
+    
+      <hr width="100%">
+      
+      <div>
+          <footer>
+              If you have any questions or wish to contact us, please go the About Us page.
+          </footer>
+      </div>
+</body>
+</html>
