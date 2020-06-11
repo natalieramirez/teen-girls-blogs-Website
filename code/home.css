@@ -2,9 +2,9 @@
 
 
 body {
-    width: 95%;
+    width: 100%;
     font-family: 'Source Sans Pro', sans-serif;
-    margin: 15px 40px 30px 40px;
+    margin: 0px;
 }
 
 h1 {
@@ -17,54 +17,65 @@ footer {
     font-family: sans-serif;
     color: #f0b3ff;
     letter-spacing: 0.08em;
+    padding-bottom: 50px;
+    padding-left: 50px;
 }
 
 .alignTextCenter {
-        width: 100%;
         text-align: center;
-        padding: 35px;
-    }
+}
+
+.blog-text {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 .alignImageCenter {
-    padding-left: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
 }
 
-    img {
-        max-width: 100%;
-        width: auto;
-        height: auto;
-    }
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
 
 .topnav {
     background-color: #ffffff;
     overflow: hidden;
-  }
+    padding: 40px 40px 40px 40px;
+    border-bottom: #cc00ff;
+    border-width: 2px;
+    border-bottom-style: solid;
+}
   
   /* Style the links inside the navigation bar */
-  .topnav a {
-    float: right;
-    display: block;
-    color: #cc00ff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #f0b3ff;
-    color: white;
-  }
-  
-  /* Add an active class to highlight the current page */
-  .topnav a.active {
-    background-color: #cc00ff;
-    color: white;
-  }
-  
-  /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
-    display: none;
-  }
+.topnav a {
+  float: right;
+  display: block;
+  color: #cc00ff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #f0b3ff;
+  color: white;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #cc00ff;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
