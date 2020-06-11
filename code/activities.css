@@ -20,7 +20,7 @@ footer {
 }
 
 .alignTextCenter {
-      text-align: center;
+    text-align: center;
   }
 
 .alignImageCenter {
@@ -36,6 +36,8 @@ img {
   height: auto;
 }
 
+
+/*NAVIGATION BAR*/
 .topnav {
   background-color: #ffffff;
   overflow: hidden;
