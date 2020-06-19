@@ -28,6 +28,8 @@ footer {
 .blog-text {
   padding-left: 50px;
   padding-right: 50px;
+  letter-spacing: 0.04em;
+  text-align: justify;
 }
 
 .alignImageCenter {
