@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scholar</title>
+        <link rel="stylesheet" type="text/css" href="scholar.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="aboutUs.html">About Us</a>
+        <a href="scholar.html" class="active">Scholar</a>   
+        <a href="activities.html">Activities</a>
+        <a href="home.html">Home</a>
+  
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <img src="teenblogshorizontal.png">
+    </div>
+  
+    <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+    }
+    </script>
+  
+    <header class="alignTextCenter">
+        <h1>Scholar</h1> 
+    </header>
+
+    <div>
+        <p>
+            Here you can find a lot of things to learn about! Click to learn more about 
+                <p>
+                    Finding What You're Interested In <!--Click and it scrolls to 'Finding What You're Interested In-->
+                </p>
+
+                <p>
+                    Programs/Internships/Scholarships for High Schoolers <!--Click and it scrolls to Programs/Internships/Scholarships for High Schoolers-->
+                </p>
+
+                <p>
+                    Benefitial and Productive Things To Do <!--Click and it scrolls to Benefitial and Productive Things To Do-->
+                </p>
+        </p>
+    </div>
+
+    <hr width="100%">
+
+    <div>
+        <footer>
+            If you have any questions or wish to contact us, please go the About Us page.
+        </footer>
+    </div>
+</body>       
+</html>
