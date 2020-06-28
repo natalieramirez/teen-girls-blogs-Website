@@ -13,6 +13,13 @@ h1 {
   color: #cc00ff;
 }
 
+.scholar-topics {
+  padding-left: 50px;
+  padding-right: 50px;
+  letter-spacing: 0.04em;
+  text-align: justify;
+}
+
 footer {
   font-family: sans-serif;
   color: #f0b3ff;
