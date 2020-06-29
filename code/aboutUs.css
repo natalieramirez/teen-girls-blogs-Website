@@ -41,9 +41,6 @@ img {
   background-color: #ffffff;
   overflow: hidden;
   padding: 40px 40px 40px 40px;
-  border-bottom: #cc00ff;
-  border-width: 2px;
-  border-bottom-style: solid;
 }
   
 /* Style the links inside the navigation bar */
@@ -101,7 +98,7 @@ img {
 
 /* Some left and right padding inside the container */
 .container {
-  padding: 8 8px;
+  padding: 50 50px;
 }
 
 /* Clear floats */
