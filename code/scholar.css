@@ -13,12 +13,35 @@ h1 {
   color: #cc00ff;
 }
 
+h3 {
+  color: #cc00ff;
+}
+
+h4 {
+  color: #f0b3ff;
+}
+
 .scholar-topics {
   padding-left: 50px;
   padding-right: 50px;
   letter-spacing: 0.04em;
   text-align: justify;
 }
+
+.scholar-text {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: justify;
+}
+
+.citations {
+  padding-left: 50px;
+  font-size: small;
+}
+
+hr {
+  color: #f0b3ff;
+} 
 
 footer {
   font-family: sans-serif;
