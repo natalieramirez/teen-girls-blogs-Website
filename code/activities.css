@@ -4,7 +4,7 @@
 body {
   width: 100%;
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 0px;
+  margin: 0px;
 }
 
 h1 {
@@ -16,11 +16,15 @@ h1 {
 h2 {
   font-weight: bold;
   color: #f0b3ff;
-  /*margin:20px;*/
+  margin:20px;
 }
 
 p {
- /*margin: 20px;*/
+  margin: 20px;
+}
+
+ul {
+  margin: 20px;
 }
 .activities-content {
   padding-left: 50px;
