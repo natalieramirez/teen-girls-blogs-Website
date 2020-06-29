@@ -4,7 +4,7 @@
 body {
   width: 100%;
   font-family: 'Source Sans Pro', sans-serif;
-  margin: 20px;
+  padding: 0px;
 }
 
 h1 {
@@ -16,12 +16,15 @@ h1 {
 h2 {
   font-weight: bold;
   color: #f0b3ff;
+  /*margin:20px;*/
 }
 
+p {
+ /*margin: 20px;*/
+}
 .activities-content {
   padding-left: 50px;
   padding-right: 50px;
-  letter-spacing: 0.04em;
   text-align: justify;
 }
 
@@ -29,6 +32,8 @@ footer {
   font-family: sans-serif;
   color: #f0b3ff;
   letter-spacing: 0.08em;
+  padding-bottom: 50px;
+  padding-left: 50px;
 }
 
 .alignTextCenter {
@@ -54,9 +59,9 @@ img {
   background-color: #ffffff;
   overflow: hidden;
   padding: 40px 40px 40px 40px;
-  border-bottom: #cc00ff;
+  /*border-bottom: #cc00ff;
   border-width: 2px;
-  border-bottom-style: solid;
+  border-bottom-style: solid;*/
 }
 
 /* Style the links inside the navigation bar */
