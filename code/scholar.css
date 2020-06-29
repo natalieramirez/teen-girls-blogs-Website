@@ -15,10 +15,16 @@ h1 {
 
 h3 {
   color: #cc00ff;
+  font-size: 22px;
 }
 
 h4 {
   color: #f0b3ff;
+  font-size: 18px;
+}
+
+li {
+  margin-left: 60px;
 }
 
 .scholar-topics {
