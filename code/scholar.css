@@ -1,9 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 
 body {
   width: 100%;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0px;
 }
 
@@ -13,10 +14,49 @@ h1 {
   color: #cc00ff;
 }
 
+h3 {
+  color: #cc00ff;
+  font-size: 22px;
+}
+
+h4 {
+  color: violet;
+  font-size: 18px;
+}
+
+h5 {
+  color: #f0b3ff;
+  font-size: 16px
+}
+
+li {
+  margin-left: 60px;
+}
+
+.scholar-topics {
+  padding-left: 50px;
+  padding-right: 50px;
+  letter-spacing: 0.04em;
+  text-align: justify;
+}
+
+.scholar-text {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: justify;
+}
+
+.citations {
+  padding-left: 50px;
+  font-size: small;
+}
+
 footer {
   font-family: sans-serif;
   color: #f0b3ff;
   letter-spacing: 0.08em;
+  padding-left: 30px;
+  padding-bottom: 20px;
 }
 
 .alignTextCenter {

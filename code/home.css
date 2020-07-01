@@ -1,9 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 
 body {
     width: 100%;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
 
@@ -17,12 +18,12 @@ footer {
     font-family: sans-serif;
     color: #f0b3ff;
     letter-spacing: 0.08em;
-    padding-bottom: 50px;
-    padding-left: 50px;
+    padding-left: 30px;
+    padding-bottom: 20px;
 }
 
 .alignTextCenter {
-        text-align: center;
+    text-align: center;
 }
 
 .blog-text {

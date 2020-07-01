@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 body {
   width: 100%;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0px;
 }
 
@@ -17,6 +17,8 @@ footer {
   font-family: sans-serif;
   color: #f0b3ff;
   letter-spacing: 0.08em;
+  padding-left: 30px;
+  padding-bottom: 20px;
 }
 
 .alignTextCenter {
@@ -41,9 +43,6 @@ img {
   background-color: #ffffff;
   overflow: hidden;
   padding: 40px 40px 40px 40px;
-  border-bottom: #cc00ff;
-  border-width: 2px;
-  border-bottom-style: solid;
 }
   
 /* Style the links inside the navigation bar */
@@ -101,7 +100,10 @@ img {
 
 /* Some left and right padding inside the container */
 .container {
-  padding: 8 8px;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: justify;
+  line-height: 1.4rem;
 }
 
 /* Clear floats */
@@ -130,3 +132,4 @@ img {
 .button:hover {
   background-color: #555;
 }
+
