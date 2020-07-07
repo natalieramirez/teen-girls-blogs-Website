@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import "compass/css3";
 
 body {
   width: 100%;
@@ -11,6 +12,91 @@ h1 {
   font-size: 2.0rem;
   font-weight: bold;
   color: #cc00ff;
+}
+
+*, 
+*:before, 
+*:after {
+   box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 1em;
+}
+
+h3 {
+  text-align: center;
+  color: #cc00ff;
+  text-shadow: 1px 1px 0 rgba(white, 1);
+}
+
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+input, textarea {
+  border: 0; 
+  outline:0;
+  padding: 1em;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 1px 1px rgba(lightgray, 0.1); 
+  resize: none;
+}
+
+:focus {
+  box-shadow: 0 0px 2px rgba(#cc00ff, 1)!important;
+}
+  
+#input-submit {
+  color: white; 
+  background: violet;
+  cursor: pointer;
+}
+
+:hover {
+  box-shadow: 0 1px 1px 1px rgba(lightgray, 0.6); 
+}
+  
+textarea {
+  height: 126px;
+}
+
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right { width: 50%; }
+
+.left {
+     margin-right: 2%; 
+}
+
+@media (max-width: 480px) {
+  .half {
+     width: 100%; 
+     float: none;
+     margin-bottom: 0; 
+  }
+}
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
 }
 
 footer {
