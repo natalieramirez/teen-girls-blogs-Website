@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+body {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: #cc00ff;
+}
+
+footer {
+    font-family: sans-serif;
+    color: #f0b3ff;
+    letter-spacing: 0.08em;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.alignTextCenter {
+    text-align: center;
+}
+
+.blog-text {
+  padding-left: 50px;
+  padding-right: 50px;
+  letter-spacing: 0.04em;
+  text-align: justify;
+}
+
+.alignImageCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 40px 40px 40px 40px;
+    border-bottom: #cc00ff;
+    border-width: 2px;
+    border-bottom-style: solid;
+}
+  
+  /* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #cc00ff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #f0b3ff;
+  color: white;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #cc00ff;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
