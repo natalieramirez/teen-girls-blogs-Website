@@ -32,18 +32,11 @@ h4 {
   font-weight: 300;
 }
 
-h5 {
-  font-size: 16px;
-  font-weight: 300;
-  padding-right: 800px;
-  float: left;
-}
-
-h6 {
-  font-size: 16px;
-  font-weight: 300;
-  padding-left: 800px;
-  float: right;
+.imgResume {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 li {
