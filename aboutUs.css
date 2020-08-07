@@ -59,6 +59,12 @@ input, textarea {
   cursor: pointer;
 }
 
+#input-reset {
+  color: white; 
+  background: violet;
+  cursor: pointer;
+}
+
 :hover {
   box-shadow: 0 1px 1px 1px rgba(lightgray, 0.6); 
 }
