@@ -7,6 +7,9 @@ Get teen girls to read our blog and be inspired to do something productive and f
 ## Why
 We want to use our knowledge in computer science to make a website and encourage girls to make their own and more
 
+## Update
+Unfinished - will be actively updating soon!
+
 ## About Us
 We are rising juniors from Alexandria, VA
 - gmail - natalie.ramirez.mailbox@gmail.com
